@@ -10,10 +10,7 @@ public class Main {
             intern.nameOfInstitute = "hku Hong Kong";
             intern.internID = -1;
             intern.showDetails();
-        } catch (IllegalArgumentException e) {
+        } catch (IllegalArgumentException | NullPointerException e) {
             System.out.println(e.getMessage());}
-//        } catch (NullPointerException e) {
-//            System.out.println(e.getMessage());
-//        }
     }
 }
